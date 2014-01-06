@@ -18,13 +18,14 @@ What to expect in coming weeks
 + Dart
 + Scheme
 + Go
++ J
 
 And a whole slew of turing tarpits and esoteric languages
++ INTERCAL: I don't even know what INTERCAL is
 + Brainfuck: 8 commands and an array
 + Whitespace: Only tabs, spaces, and linefeeds
 + Chef: Every program reads like a recipe
 + Piet: Programs look like abstract art
-+ LOLCODE: Can i haz STDIO?
 
 Requests
 --------
