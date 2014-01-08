@@ -1,0 +1,4 @@
+DO ,1 <- #1
+DO ,1SUB#1 <- #234
+DO READ OUT ,1
+PLEASE GIVE UP

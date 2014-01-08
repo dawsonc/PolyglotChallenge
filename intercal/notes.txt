@@ -1,0 +1,4 @@
++ For some reason the C-INTERCAL compiler doesn't work for me (some bug involving ld called from within gcc. If I knew more I'd make an ill-advised attempt to fix it, but I don't, so I won't). Consequently, I will be using an [online compiler](http://www.compileonline.com/compile_intercal_online.php)
+.
++ ***VERY*** [Helpful tutorial](http://divingintointercal.blogspot.com/2007/03/good-programmer-constantly-strives-to.html)
+    + [Part II](http://divingintointercal.blogspot.com/2007/03/part-dalawa-still-trying-to-write-hello.html)
