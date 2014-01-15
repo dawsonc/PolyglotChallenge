@@ -9,11 +9,11 @@ The Journey So Far:
 -------------------
 
 + Week 1 : Haskell
++ Week 2 : Scala
 
 What to expect in coming weeks
 ------------------------------
 
-+ Scala
 + Rust
 + Dart
 + Scheme
