@@ -1,0 +1,8 @@
++ Rust seems to be all about concurrency. It's basically C but with concurrent programming made easier.
++ Everything is in support of that concurrency, such as the
+    + MEMORY MODEL
+        + Good thing to talk about in post
+        + Memory has 3 parts: items, stacks, and heap
+            + Items have their value calculated at compile-time, and are neither dynamically allocated nor freed.
+            + Stack: each task has it's own stack. The Stack model is pretty standard. Allocations are called "slots"
+            + Heap: 
