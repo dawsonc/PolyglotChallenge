@@ -5,4 +5,4 @@
         + Memory has 3 parts: items, stacks, and heap
             + Items have their value calculated at compile-time, and are neither dynamically allocated nor freed.
             + Stack: each task has it's own stack. The Stack model is pretty standard. Allocations are called "slots"
-            + Heap: 
+            + Heap: Allocations are called "boxes", and there are two types: managed and owned. Managed are subject to garbage-collection, owned are not (?).
