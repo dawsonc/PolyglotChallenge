@@ -20,7 +20,7 @@ Encrypts a string by adding 13 to each letter (not actually ROT-13 but close)
 <<[<]>>             Rewind
 
 ### Encrypt the string ###
-[+++++++++++++>]    Add 14 to each letter
+[+++++++++++++>]    Add 13 to each letter
 <[<]>>              Rewind to the start of the string
 
 ### Print out the encrypted string ###
