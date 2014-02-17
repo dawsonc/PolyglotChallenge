@@ -13,6 +13,7 @@ The Journey So Far:
 + Week 3 : Rust
 + Week 4 : Brainf*ck
 + Week 5 : Lisp
++ Week 6 : Julia
 
 What to expect in coming weeks
 ------------------------------
