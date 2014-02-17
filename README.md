@@ -11,6 +11,9 @@ The Journey So Far:
 + Week 1 : Haskell
 + Week 2 : Scala
 + Week 3 : Rust
++ Week 4 : Brainf*ck
++ Week 5 : Lisp
++ Week 6 : Julia
 
 What to expect in coming weeks
 ------------------------------
@@ -22,7 +25,7 @@ What to expect in coming weeks
 
 And a whole slew of turing tarpits and esoteric languages
 + INTERCAL: I don't even know what INTERCAL is
-+ Brainfuck: 8 commands and an array
++ Brainf*ck: 8 commands and an array
 + Whitespace: Only tabs, spaces, and linefeeds
 + Chef: Every program reads like a recipe
 + Piet: Programs look like abstract art
