@@ -14,13 +14,13 @@ The Journey So Far:
 + Week 4 : Brainf*ck
 + Week 5 : Lisp
 + Week 6 : Julia
++ Week 7 : Go
 
 What to expect in coming weeks
 ------------------------------
 
 + Dart
 + Scheme
-+ Go
 + J
 
 And a whole slew of turing tarpits and esoteric languages
