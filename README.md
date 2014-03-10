@@ -27,7 +27,6 @@ What to expect in coming weeks
 
 And a whole slew of turing tarpits and esoteric languages
 + INTERCAL: I don't even know what INTERCAL is
-+ Brainf*ck: 8 commands and an array
 + Whitespace: Only tabs, spaces, and linefeeds
 + Chef: Every program reads like a recipe
 + Piet: Programs look like abstract art
