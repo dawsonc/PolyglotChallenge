@@ -15,8 +15,10 @@ The Journey So Far:
 + Week 5 : Lisp
 + Week 6 : Julia
 + Week 7 : Go
-+ Week 9 : Fortran
++ Week 8 : Fortran
++ Week 9 : AppleScript
 + Week 10: Prolog
++ Week 11: Rails
 
 What to expect in coming weeks
 ------------------------------
