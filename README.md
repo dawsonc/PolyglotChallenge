@@ -19,6 +19,7 @@ The Journey So Far:
 + Week 9 : AppleScript
 + Week 10: Prolog
 + Week 11: Rails
++ Week 12: Erlang
 
 What to expect in coming weeks
 ------------------------------
