@@ -1,5 +1,3 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
 console.log("Hello");
 
 // This bit is for debugging only, so that I can get repeatable random #s
