@@ -1,0 +1,14 @@
+tick = [] {
+  " + " -> std.out 500 std.delay;
+}
+
+tock = [] {
+  "-" -> std.out 500 std.delay;
+}
+
+clock = [int milliseconds] {
+  ("\r" + (milliseconds/1000.0)) -> std.out;
+  tick tock (milliseconds + 1000) clock;
+}
+
+[clock] <- 0;
