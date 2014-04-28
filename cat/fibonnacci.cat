@@ -1,0 +1,4 @@
+10
+define next_fib { dup [+] dip swap }
+[0 dup writeln 1 dup writeln] dip
+[[next_fib dup writeln] dip 1 -] [dup 0 gt] while pop
