@@ -1,0 +1,6 @@
+do
+  do
+    every READY emit RING_BELL end
+  upto 10 SECOND
+watching STOP
+timeout emit ALARM end

@@ -1,0 +1,17 @@
+module SPEEDER :
+input TRAVELLED_ONE_METER_AT_TIME(integer);
+output CURRENT_SPEED(integer), AVERAGE_SPEED(integer);
+var   TOTAL_TIME := 0,
+      TOTAL_DISTANCE := 0,
+      LAST_TIME := 0,
+      INTERVAL := 0 : integer in
+    every immediate TRAVELLED_ONE_METER_AT_TIME do
+      TOTAL_TIME := TOTAL_TIME + ?TRAVELLED_ONE_METER_AT_TIME;
+      TOTAL_DISTANCE := TOTAL_DISTANCE + 1;
+      INTERVAL = TOTAL_TIME - LAST_TIME;
+      LAST_TIME = TOTAL_TIME;
+
+      emit CURRENT_SPEED(1/INTERVAL);
+      emit AVERAGE_SPEED(TOTAL_DISTANCE/TOTAL_TIME);
+    end
+end
