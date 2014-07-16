@@ -1,0 +1,21 @@
+# Battery bar graph
+source ~/bin/battery.bash
+
+# Colorize BATTERY_STRING appropriately
+# Under 20% => magenta
+# Under 40% => orange
+# Under 80% => green
+# Otherwise => bright green
+if [[ $(echo "$BATTERY_FRAC < 0.20" | bc) = 1 ]]; then
+  BATTERY_STRING="$(tput setaf 1)$BATTERY_STRING$(tput sgr0)";
+elif [[ $(echo "$BATTERY_FRAC < 0.40" | bc) = 1 ]]; then
+  BATTERY_STRING="$(tput setaf 3)$BATTERY_STRING$(tput sgr0)";
+elif [[ $(echo "$BATTERY_FRAC < 0.80" | bc) = 1 ]]; then
+  BATTERY_STRING="$(tput setaf 2)$BATTERY_STRING$(tput sgr0)";
+else
+  BATTERY_STRING="$(tput setaf 120)$BATTERY_STRING$(tput sgr0)";
+fi
+
+SYMBOL=">>" # Change this to be whatever you want your prompt to be (traditionally $)
+
+PS1=$BATTERY_STRING$SYMBOL
