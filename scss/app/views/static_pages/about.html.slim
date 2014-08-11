@@ -1,0 +1,25 @@
+.outer
+  .wrapper
+    h2 Read a letter
+    h1 Write a letter
+
+    br
+
+    .explanation
+      p
+        | Nobody writes letters anymore. Let's try and fix that.
+      p
+        | Click the link below and you'll see two things:
+
+    #demo
+      #left  
+        | On the left will be a letter written by the last person who used the site.
+      #right
+        | On the right will be a blank space for you to write your letter
+
+    .explanation
+      p
+        | Once you click submit, your letter will be saved and shown to the next person, and the cycle will begin again.
+
+    = link_to 'Give it a try', root_path
+

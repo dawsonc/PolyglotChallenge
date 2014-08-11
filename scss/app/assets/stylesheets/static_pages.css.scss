@@ -1,0 +1,33 @@
+$main-columns: 4;
+
+.outer {
+  @include outer-container;
+
+  .wrapper {
+    @include span-columns($main-columns);
+    @include shift(2);
+
+    .explanation {
+      @include span-columns($main-columns of $main-columns);
+      @include omega;
+
+      @include pad(10 0 0 0);
+    }
+
+    #demo {
+      @include span-columns($main-columns of $main-columns);
+      font-size: 0.9em;
+
+      $example-columns: $main-columns / 2;
+      
+      #left {
+        @include span-columns($example-columns of $main-columns);
+      }
+
+      #right {
+        @include span-columns($example-columns of $main-columns);
+        @include omega;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+$letter-columns: 8;
+
+.wrapper {
+  @include outer-container;
+
+  @include pad(0 0 20 0);
+
+  .headings {
+      @include span-columns(4);
+      @include shift(2);
+      @include omega;
+  }
+
+  .letters {
+    @include span-columns($letter-columns);
+    @include shift(2);
+    
+    $half: $letter-columns / 2;
+    .letter {
+      @include span-columns($half of $letter-columns);
+    }
+
+    .your-letter {
+      @include span-columns($half of $letter-columns);
+    }
+  }
+}
+
