@@ -1,0 +1,1 @@
+To see the app in action, visit [http://corresponder.herokuapp.com](http://corresponder.herokuapp.com). Only the SCSS will be stored in this repo so as not to skew the language stats (you can see the full app source at https://github.com/dawsonc/Letters)
