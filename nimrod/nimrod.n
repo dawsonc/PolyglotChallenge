@@ -1,0 +1,11 @@
+var n: int = 10 # Static typing
+
+echo(fib(n))
+
+proc fib(n: int): int = # Functions are called "procedures", or "procs" for short
+  if n == 1:
+    return 0
+  elif n == 2:
+    return 1
+  else:
+    return fib(n-1) + fib(n-2)
