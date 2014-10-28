@@ -1,0 +1,21 @@
+begin
+    integer N;
+    Read Int(N);
+
+    begin
+        integer array Data[1:N];
+        integer runningMax;
+        integer i;
+        runningMax := -1;
+
+        for i:=1 step 1 until N do
+            begin integer val;
+                Read Int(val);
+                Data[i] := if val<0 then -val else val;
+            end;
+
+        for i:=1 step 1 until N do
+            runningMax := if Data[i] > runningMax then Data[i] else runningMax;
+        Print Int(runningMax)
+    end
+end
