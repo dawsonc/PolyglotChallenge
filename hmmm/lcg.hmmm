@@ -1,0 +1,16 @@
+00 read r1     # input a (multiplier)
+01 read r2     # input c (increment)
+02 read r3     # input m (divisor)
+03 read r4     # input X_0 (seed)
+04 read r5     # input N (number of pseudo-random numbers to print out)
+
+05 jeqzn r5 12      # Iterate r5 times
+06 mul r10 r1 r4    # Using r10 as scratch space, carry out a*X_n
+07 add r10 r10 r2   # carry out the addition in a*X_n + c
+08 mod r4 r10 r3    # carry out the modulus in (a*X_n + c) % m
+                    # .. store the result in r4
+09 write r4         # Print out the pseudo-random number
+10 addn r5 -1       # Count downwards towards zero
+11 jumpn 05         # Iterate!
+
+12 halt             # And we're done!
